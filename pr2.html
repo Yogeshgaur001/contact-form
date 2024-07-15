@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Homepage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="images.jpeg" alt="This is my pro image" opacity="0.2" height="100%">
+    <main>
+        <section id="contact">
+            <center>
+            <h2>Contact</h2>
+            <button id="contactButton">Contact Us</button>
+            <p>This is my website.I am a web developer.</p></center>
+        </section>
+    </main>
+        <div id="popupForm" class="popup">
+        <div class="popup-content">
+            <form
+    action="https://getform.io/f/bnleqpjb"
+    method="post"
+    enctype="multipart/form-data"
+    >
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="popupContactForm">
+                <label for="popupName">Name:</label>
+                <input type="text" id="popupName" name="name" required>
+                <label for="popupEmail">Email:</label>
+                <input type="email" id="popupEmail" name="email" required>
+                <label for="popupMessage">Message:</label>
+                <textarea id="popupMessage" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
